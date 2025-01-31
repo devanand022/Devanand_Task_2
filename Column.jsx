@@ -5,7 +5,7 @@ const Column = (props) => {
     const { field, sortable, filter, children } = props;
     
     return(
-        <div className='column-container'>
+        <div className='column-container' onClick={filter}>
             {children}
         </div>
     )
